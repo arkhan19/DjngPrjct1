@@ -7,10 +7,9 @@
     <center><h1>Welcome to Hinglish</h1></center>
 </head>
 <body>
-<form>
-
+<form action="{% url 'translatepage' %}">
     <center>
-    Enter the Text : <input type="text" /><br>
+        Enter the Text : <input type="text" /><br>
         Choose mode : <input list="browsers">
         <datalist id="browsers">
             <option value="Hinglish to English">
