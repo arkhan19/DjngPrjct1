@@ -2,8 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Translate</title>
+    <title>Translation</title>
+
+
 </head>
 <body>
+
+<center>
+    <h1>
+    Hinglish at your service!
+</h1>
+
+    Original Test : {{original}} <br>
+    Translated Text : {{translate}} <br>
+    <form action = "{% url 'home' %}">
+        <button type = submit>Another Go?</button>
+    </form>
+</center>
 </body>
 </html>
